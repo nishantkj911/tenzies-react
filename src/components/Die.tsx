@@ -6,9 +6,8 @@ export default function Die({state, onClick}: { state: DieState, onClick: any })
   return (
     <button
       className={"die-button" + (state.selected ? " die-button-selected" : "")}
-      onClick={(event) => onClick(event, state)}
+      onClick={onClick}
       value={state.value}
-      disabled={state.selected}
     >
       {state.value}
     </button>
