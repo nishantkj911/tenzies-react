@@ -1,0 +1,17 @@
+.die-button {
+  font-family: 'Karla', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #2B283A;
+  background: #FFFFFF;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.die-button-selected {
+  background-color: #59E391;
+}

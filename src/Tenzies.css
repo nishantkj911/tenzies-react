@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Inter", serif;
+}
+
+.app {
+  height: 100vh;
+  background-color: #0B2434;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui {
+  background-color: #F5F5F5;
+  height: 320px;
+  width: 320px;
+  border-radius: 10px;
+  padding-top: 34px;
+
+}
+
+.tenzies-title {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-family: 'Karla', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+
+  color: #2B283A;
+}
+
+p {
+  margin-inline: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #4A4E74;
+}
+
+.die-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 36px);
+  grid-template-rows: 36px 36px;
+  justify-content: space-between;
+  row-gap: 19px;
+
+  margin-block: 14px;
+  margin-inline: 35px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit > button {
+  width: 93px;
+  height: 36px;
+
+  margin-top: 11px;
+
+  background-color: #5035FF;
+  outline: none;
+  border-radius: 4px;
+
+  font-family: 'Karla', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+}
